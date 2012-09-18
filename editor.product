@@ -27,7 +27,7 @@
    </plugins>
 
    <features>
-      <feature id="com.kowymaker.editor.feature" version="0.1.0.qualifier"/>
+      <feature id="com.kowymaker.editor.feature"/>
       <feature id="org.eclipse.rcp"/>
       <feature id="org.eclipse.emf.ecore"/>
       <feature id="org.eclipse.e4.rcp"/>
