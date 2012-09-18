@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="Kowy Maker - Editor" uid="com.kowymaker.editor.product" id="com.kowymaker.editor.plugins.core.product" application="com.kowymaker.editor.application" version="0.1.0.qualifier" useFeatures="true" includeLaunchers="true">
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <programArgs>-clearPersistedState</programArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
+   </launcherArgs>
+
+   <windowImages/>
+
+   <launcher>
+      <solaris/>
+      <win useIco="false">
+         <bmp/>
+      </win>
+   </launcher>
+
+   <vm>
+   </vm>
+
+   <plugins>
+   </plugins>
+
+   <features>
+      <feature id="com.kowymaker.editor.feature" version="0.1.0.qualifier"/>
+      <feature id="org.eclipse.rcp"/>
+      <feature id="org.eclipse.emf.ecore"/>
+      <feature id="org.eclipse.e4.rcp"/>
+      <feature id="org.eclipse.emf.common"/>
+   </features>
+
+   <configurations>
+      <plugin id="com.kowymaker.editor.core" autoStart="true" startLevel="4" />
+      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="3" />
+      <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
+      <plugin id="org.eclipse.update.configurator" autoStart="true" startLevel="3" />
+   </configurations>
+
+</product>
